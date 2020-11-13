@@ -4,8 +4,15 @@ on:
   push:
     branches:
       - master
-      - 'feature/*' # regex filter
-      - 'feature/**' # regex
+      # - 'feature/*' # regex filter
+      # - 'feature/**' # regex
+  # tags:
+  #   - v1.*
+  # paths:
+  #   - '**.js'
+  #   - '!notthisone.js'
+  # paths-ignore
+  #   - 'docs/**'
   # repository_dispatch:
   #   types: [build]
   # schedule:
